@@ -1,0 +1,19 @@
+{
+  "name": "ai-news-digest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 最新新闻聚合 + DeepSeek 智能总结 (后端代理所有 API Key)",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "smoke": "node scripts/smoke-test.js",
+    "check:imports": "node scripts/check-imports.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
